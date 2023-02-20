@@ -1,0 +1,109 @@
+/* for header */
+*{margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+a{text-decoration: none;
+color: black;}
+
+header{display: flex;
+justify-content: center;
+align-items: center;
+background-color:#ebeef5;}
+nav{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+background-color:#ebeef5;
+width: 100%;
+min-height: 70px;
+margin: 0px 20px;}
+.signup{display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.signup .opt{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+box-shadow: 1px 1px 8px 1px black;
+background-color:#268665;
+height: 40px;
+padding: 1px 15px;
+margin-left: 20px;
+border-radius: 7px;
+color: aliceblue;
+}
+.options{display: flex;
+flex-wrap: wrap;
+margin: 10px;
+justify-content: center;
+}
+.opt{margin-right: 20px;}
+.opt:hover { color: #268665;}
+.event{text-align: center;
+    display: flex;
+justify-content: center;}
+.option p{padding: 3px;}
+.option p:hover{opacity: 0.5; color: #268665;}
+.event_options{
+    display:none;
+    text-decoration: none;
+    position: absolute;
+    padding: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: rgb(67, 67, 238);}
+.event:hover .event_options{display: block;}
+
+@media screen and (max-width:875px) {
+    nav{justify-content: center;}
+    .opt{margin: 10px;}
+    
+}
+
+/* for main */
+
+main{display: flex;
+    background-color: #7e8aa5;
+justify-content: center;}
+.container{background-color:#ebeef5;
+margin-top: 20px;
+padding: 20px;
+box-shadow: 1px 1px 10px 1px ;}
+.container h1{text-align: center;
+margin: 10px;}
+caption{margin: 5px;}
+tr{padding: 5px;}
+table{border-collapse:separate;
+border-spacing:15px 15px;
+margin: auto;}
+tr:hover{color: #268665;}
+
+/* for  contact */
+.contacts{display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+background-color:#ebeef5}
+.contacts li a{text-decoration: none;}
+.same{background-color: bisque;
+box-shadow: 1px 1px 10px 1px ;
+border-radius: 10px;}
+.same h2{text-align: center;
+padding: 10px;}
+.same ul{background-color: rgb(167, 192, 214);
+padding:10px 30px;}
+.same ul li {margin: 10px;}
+.same li:hover a{color: #268665;}
+
+/* for footer */
+.copy{background-color: blanchedalmond;
+    padding: 10px;
+    text-align: center;}
